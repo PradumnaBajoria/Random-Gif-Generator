@@ -13,7 +13,7 @@ function Tag() {
     return (
         <div className="container">
             <h1>Random {tag} Gif</h1>
-            <img width="500" src={gif} alt="Random Gif" />
+            <img width="500px" height="300px" src={gif} alt="Random Gif" />
             <input value={tag} onChange={(e) => setTag(e.target.value)} />
             <button onClick={handleClick}>Create Random Gif</button>
         </div>
